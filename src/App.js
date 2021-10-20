@@ -4,14 +4,6 @@ import Header from './components/header';
 import Routes from './components/routes';
 import { BrowserRouter } from 'react-router-dom';
 import { useState } from 'react';
-// import { BrowserRouter, Route, Switch } from 'react-router-dom';
-// import Login from './components/login';
-// import { Route, Switch } from "react-router";
-// import { Button } from 'react-bootstrap';
-// import Login from './components/login';
-// import Burger from './components/burger';
-
-
 
 function App() {
 
