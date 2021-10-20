@@ -1,26 +1,12 @@
 import React, { Component } from 'react';
 import { Form, Button } from 'react-bootstrap';
+import login from './login.css';
 class Login extends Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {};
-  // }
 
-  styles = {
-    body:{
-      width: "25%",
-      margin: "10% 30% 5% 38%" ,
-      backgroundColor:"lightGrey",
-      padding:"5% 2% 5% 2%",
-    },
-    h1:{
-      color: "grey"
-    }
-  };
   render() {
     return (
-      <div style={this.styles.body}>
-        <h1 style={this.styles.h1}>Login Form</h1>
+      <div class="body">
+        <h1>Login Form</h1>
         <br/><br/>
         <Form >
           <Form.Group className="mb-3" controlId="formBasicEmail">
